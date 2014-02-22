@@ -2,7 +2,7 @@ import os
 import sys
 
 def get_files(dir):
-    return [name for name in os.listdir(dir)]
+	return [name for name in os.listdir(dir)]
 
 songDir = sys.argv[1]
 diffs = ["Easy", "Normal", "Beginner", "Standard", "Taiko", "Oni", "Muzukashii"];
