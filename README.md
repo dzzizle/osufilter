@@ -1,6 +1,8 @@
 osu!filter
 ==========
-Delete the beatmap difficulties you don't want (yes, delete - moving the maps elsewhere and installing them again in the same spot is a true hassle)
+Delete the beatmap elements (difficulties, hitsounds, skins) you don't want.
+
+NOTE: Deleting skins may delete some backgrounds (this is rare, but it doesn't matter if you play at 100% dim). Use at your own risk.
 
 Requirements
 ------------
@@ -16,4 +18,12 @@ I would recommend that you move your song directory elsewhere before running the
 To change difficulties, edit the 'diffs' list (just in case for non-programmers)
 ```python
 diffs = ["Hard", "Insane", "Another"] #I HATE HARD MAPS
+```
+
+Changing what to delete:
+```python
+del_maps = True
+del_hitsounds = True
+del_skins = False
+del_bg = False
 ```
