@@ -9,7 +9,7 @@ Usage
 Configuration
 -----
 ```python
-diffs = ["Hard", "Insane", "Another"] #I HATE HARD MAPS
+diffs = ["Hard", "Insane", "Another"] 
 ```
 
 ```python
